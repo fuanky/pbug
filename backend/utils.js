@@ -66,10 +66,11 @@ const classNameMap = {
       'Lower': {
         'AngledForeGrip':     ['三角', 0b00000000000000000000000000000001],
         'Foregrip':           ['垂直', 0b00000000000000000000000000000001]   
-        'Foregrip':           ['垂直', 0b00000000000000000000000000000001]
         'Duckbill':           ['Duckbill', 0b00000000000000000000000000000001]//no date
         'LightGrip':          ['LightGrip', 0b00000000000000000000000000000001]//no date
+        'ThumbGrip':          ['ThumbGrip', 0b00000000000000000000000000000001]//no date
         'HalfGrip':           ['HalfGrip', 0b00000000000000000000000000000001]//no date
+        
         
         
         
