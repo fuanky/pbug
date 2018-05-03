@@ -5,11 +5,11 @@ const utils = require('./utils')
 const repLayoutProcessor = require('./replayoutprocessor')
 const processCharMove = require('./processor/charmove')
 const processCarSync = require('./processor/carsync')
-// make the stash singleton
+// 使存储单例
 
-// since bunch can be partial, not every bunch can be processed immediately
-// we need a stash to same the temp partial bunches
-// when bunch is ready to be processed, it would generate CMD
+// 因为束可以是局部的，并不是每一束都可以立即处理
+// 我们需要一个藏匿的温度部分束
+// 当一堆准备好处理时，它会生成CMD
 const bunchStash = {
   _inReliables: Array(20481),
   _bunchStashes: Array(20481),
@@ -23,7 +23,7 @@ const bunchStash = {
     this._actors[index] = undefined
   },
 
-  // when game starts, we should probably do this.
+  // 当游戏开始时，我们可能应该这样做。
   reset () {
     this._inReliables.fill(undefined)
     this._bunchStashes.fill(undefined)
@@ -31,7 +31,7 @@ const bunchStash = {
     this._actors.fill(undefined)
   },
 
-  // return event[] or null
+  // 返回事件[] 或者 空
   feedEvent (inputEvent) {
     if (inputEvent.type !== CONSTS.EventTypes.UEBUNCHES) {
       //logger.error('Must input UEBUNCHES event')
