@@ -227,6 +227,32 @@ vapp = new Vue({
       if (this.showKar98k) {
         flags |= 0b00000000000000000100000000000000
       }
+      if (this.showSLR) {
+        flags |= 0b00000000000000000100000000000000  //新武器SLR no date 
+      }
+      if (this.showAdrenaline) {
+        flags |= 0b00000000000000000100000000000000  //肾上腺素 no date 
+      }
+      if (this.showScope3X) {
+        flags |= 0b00000000000000000100000000000000  //3倍镜 no date 
+      }
+      if (this.showScope6X) {
+        flags |= 0b00000000000000000100000000000000  //6倍镜 no date 
+      }
+       if (this.showDuckbill) {
+        flags |= 0b00000000000000000100000000000000  //新配件no date 
+      }
+       if (this.showLightGrip) {
+        flags |= 0b00000000000000000100000000000000  //新配件no date 
+      }
+       if (this.showThumbGrip) {
+        flags |= 0b00000000000000000100000000000000  //新配件no date 
+      }
+       if (this.showHalfGrip) {
+        flags |= 0b00000000000000000100000000000000  //新配件no date 
+      }
+      
+
       return flags
     }
   },
