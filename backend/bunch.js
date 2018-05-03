@@ -1,6 +1,6 @@
-// here still use prototype + constructor to get better performance
+// 这里仍然使用prototype +构造函数来获得更好的性能
 
-// options contains
+// 下面是选项 ？？？
 // bOpen: Boolean,
 // bClose: Boolean,
 // bDormant: Boolean,
