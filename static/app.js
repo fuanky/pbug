@@ -47,7 +47,7 @@ vapp = new Vue({
     showArmor2: false,
     showHead2: false,
     showArmor3: true,
-    showHead3: true,
+    //showHead3: true,
     showFirstAid:false ,
     showMedKit: true,
     showDrink: false,
@@ -74,6 +74,20 @@ vapp = new Vue({
     showMini14: false,
     showSKS: false,
     showKar98k: true,
+    showSLR: true,
+    showAdrenaline: true,
+    showScope3X: false,
+    showScope6X: true,
+    showDuckbill: false,
+    showLightGrip: false,
+    showThumbGrip: false,
+    showHalfGrip: false,
+    
+    
+    //添加SLR狙击步枪和肾上腺素删除三级头新配件Scope3x and 6x 
+    //新配件Duckbill 新配件Light Grip 新配件Thumb Grip 　新配件Half Grip
+    
+    
 
     // --------------------------------------------------------------------------
 
