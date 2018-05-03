@@ -6,10 +6,10 @@ function slide(){
 	 if(box1.style.display=="none"){
             box1.style.display="block"; 
              box2.style.left="330px";
-                             //显示
+                             ////显示
         }else{
             box1.style.display="none"; 
-            box2.style.left='0px';                 //隐藏
+            box2.style.left='0px';                 ////隐藏
        } 
 	
 }
